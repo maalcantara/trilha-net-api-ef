@@ -1,7 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ModuloAPI.Entities
 {
@@ -11,5 +8,14 @@ namespace ModuloAPI.Entities
         public string Nome { get; set; }
         public string Telefone { get; set; }
         public bool Ativo { get; set; }
+
+        // Construtor que inicializa as propriedades obrigatórias
+        public Contato()
+        {
+            // Inicialize as propriedades obrigatórias aqui
+            Nome = string.Empty;
+            Telefone = string.Empty;
+            Ativo = false;
+        }
     }
 }
