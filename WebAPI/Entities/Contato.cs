@@ -12,7 +12,6 @@ namespace ModuloAPI.Entities
         // Construtor que inicializa as propriedades obrigatórias
         public Contato()
         {
-            // Inicialize as propriedades obrigatórias aqui
             Nome = string.Empty;
             Telefone = string.Empty;
             Ativo = false;
